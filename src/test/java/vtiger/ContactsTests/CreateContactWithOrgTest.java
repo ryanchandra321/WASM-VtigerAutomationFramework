@@ -90,5 +90,11 @@ public class CreateContactWithOrgTest extends BaseClass{
 		//hp.signOutOfApp(driver);
 
 	}
+	
+	@Test(groups = "SmokeSuite" )
+	public void jusrPrint()
+	{
+		System.out.println("Extra Print");
+	}
 
 }
